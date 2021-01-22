@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); 
+ 
+ * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(221, 221, 221);
+    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    
+ }
+
+ body {
+    
+ }
+
+ .profile-info {
+     background-color: white;
+     display: flex;
+     align-items: center;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+ }
+
+ h2 {
+     background-color: white;
+ }
+
+ p {
+     background-color: white;
+     padding: 20px;
+     font-weight: 400;
+ }
+
+ .username {
+     background-color: white;
+     font-weight: 500;
+     font-size: 20px;
+ }
+
+ .profile-info > img {
+     margin: 15px;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     transition: 0.3s;
+
+ }
+
+ .article-img {
+     width: 600px; 
+ }
+
+ .post {
+     margin: 15px auto;
+     height: 300px;
+     width: 600px;
+     background-color: white;
+     border-radius: 15px;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.01), 0 5px 12px rgba(0,0,0,0.15);
+     transition: 0.3s;
+ }
+
+ .post2 {
+    margin: 15px auto;
+    height: 570px;
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.post3 {
+    margin: 15px auto;
+    height: 720px;
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s;
+}
+
+.post:hover, .post2:hover, .post3:hover {
+    transform: scale(1.1);
+    box-shadow: 0 28px 56px rgba(0,0,0,0.0), 0 10px 24px rgba(0,0,0,0.3);
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    margin-left: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.01), 0 5px 12px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.profile-info > img:hover {
+    transform: scale(5);
+    cursor: pointer;
+}
+
+.button-yes:hover {
+    background-image: linear-gradient(135deg,  green,hsl(128, 100%, 81%));
+}
+
+.button-no:hover {
+    background-image: linear-gradient(135deg,  red,hsl(0, 100%, 85%));
+}
+
+.button-idk:hover {
+    background-image: linear-gradient(135deg,   rgb(100, 100, 100),hsl(0, 0%, 94%));
+}
+
+.post-footer {
+    background-color: white;
+}
+
+.button-yes {
+    background-color: green;
+}
+
+.button-no {
+    background-color: red;
+
+}
+
+.button-idk {
+    background-color: rgb(100, 100, 100);
+
+}
