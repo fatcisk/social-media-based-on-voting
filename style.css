@@ -2,6 +2,7 @@
  
  * {
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
     background-color: rgb(221, 221, 221);
     max-height: 100vh;
@@ -146,9 +147,8 @@ span {
 }
 
 .verified {
-    width: 40px;
+    width: 30px;
     background-color: white;
-    vertical-align: bottom;
 }
 
 button {
@@ -206,8 +206,8 @@ button:active {
 }
 
 .arrow {
-    width: 20px;
-    height: 13px;
+    width: 30px;
+    height: 19px;
     background-color: white;
     transition: 0.4s;
     
