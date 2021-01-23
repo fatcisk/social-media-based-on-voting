@@ -52,7 +52,7 @@
 
  .post {
      margin: 40px auto;
-     width:1300px;
+     width: 1300px;
      background-color: white;
      border-radius: 15px;
      box-shadow: 0 14px 28px rgba(0,0,0,0.01), 0 5px 12px rgba(0,0,0,0.15);
@@ -143,7 +143,7 @@ button:active {
 }
 
 .profile-info > img:hover {
-    transform: scale(5);
+    transform: scale(3);
     cursor: pointer;
 }
 
@@ -194,13 +194,18 @@ h4 {
 @media all and (max-width: 1200px) {
 
     .post, .post2, .post3 {
-        width: 85%;
+        width: 100%;
     }
 
     .article-img {
         width: 100%;
         height: auto;
       }
+
+    .post:hover, .post2:hover, .post3:hover {
+        transform: scale(1);
+        box-shadow: 0 28px 56px rgba(0,0,0,0.0), 0 10px 24px rgba(0,0,0,0.3);
+    }
 
   }
 
