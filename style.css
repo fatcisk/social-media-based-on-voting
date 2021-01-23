@@ -7,6 +7,7 @@
     background-color: rgb(221, 221, 221);
     max-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    -webkit-tap-highlight-color: transparent;
     
  }
 
