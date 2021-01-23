@@ -205,7 +205,7 @@ h4 {
       }
 
     .post:hover, .post2:hover, .post3:hover {
-        transform: scale(1);
+        transform: scale(1.01);
         box-shadow: 0 28px 56px rgba(0,0,0,0.0), 0 10px 24px rgba(0,0,0,0.3);
     }
 
